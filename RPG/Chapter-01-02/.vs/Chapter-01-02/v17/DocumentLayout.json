@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\YONSAI\\Desktop\\RPG-Tutorial\\Chapter-01-02\\",
+  "WorkspaceRootPath": "C:\\Users\\YONSAI\\Desktop\\RPG\\RPG\\Chapter-01-02\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C013761-2D59-16B7-7E0A-AE420336E5E4}|Assembly-CSharp.csproj|c:\\users\\yonsai\\desktop\\rpg-tutorial\\chapter-01-02\\assets\\fastcampus\\jin_scripts\\rigidbodycharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C013761-2D59-16B7-7E0A-AE420336E5E4}|Assembly-CSharp.csproj|c:\\users\\yonsai\\desktop\\rpg\\rpg\\chapter-01-02\\assets\\fastcampus\\jin_scripts\\rigidbodycharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C013761-2D59-16B7-7E0A-AE420336E5E4}|Assembly-CSharp.csproj|solutionrelative:assets\\fastcampus\\jin_scripts\\rigidbodycharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "RigidbodyCharacter.cs",
-              "DocumentMoniker": "C:\\Users\\YONSAI\\Desktop\\RPG-Tutorial\\Chapter-01-02\\Assets\\FastCampus\\Jin_Scripts\\RigidbodyCharacter.cs",
+              "DocumentMoniker": "C:\\Users\\YONSAI\\Desktop\\RPG\\RPG\\Chapter-01-02\\Assets\\FastCampus\\Jin_Scripts\\RigidbodyCharacter.cs",
               "RelativeDocumentMoniker": "Assets\\FastCampus\\Jin_Scripts\\RigidbodyCharacter.cs",
-              "ToolTip": "C:\\Users\\YONSAI\\Desktop\\RPG-Tutorial\\Chapter-01-02\\Assets\\FastCampus\\Jin_Scripts\\RigidbodyCharacter.cs",
+              "ToolTip": "C:\\Users\\YONSAI\\Desktop\\RPG\\RPG\\Chapter-01-02\\Assets\\FastCampus\\Jin_Scripts\\RigidbodyCharacter.cs",
               "RelativeToolTip": "Assets\\FastCampus\\Jin_Scripts\\RigidbodyCharacter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-05T03:12:55.95Z",
               "EditorCaption": ""

@@ -23,6 +23,8 @@ public class RigidbodyCharacter : MonoBehaviour
 
     private void Update()
     {
+        CheckGroundStatus();
+
         // Process user input
         inputDirection = Vector3.zero;
         inputDirection.x = Input.GetAxis("Horizontal");
@@ -34,7 +36,7 @@ public class RigidbodyCharacter : MonoBehaviour
         }
 
         // Process jump input
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && isGrounded)
         {
             Vector3 jumpVelocity = Vector3.up * Mathf.Sqrt(jumpHeight * -2f * Physics.gravity.y);
             rigidbody.AddForce(jumpVelocity, ForceMode.VelocityChange);
@@ -56,4 +58,24 @@ public class RigidbodyCharacter : MonoBehaviour
     {
         rigidbody.MovePosition(rigidbody.position + inputDirection * speed * Time.fixedDeltaTime);
     }
+
+    #region Helper Methods
+    void CheckGroundStatus()
+    {
+        RaycastHit hitInfo;
+
+#if UNITY_EDITOR
+        Debug.DrawLine(transform.position + (Vector3.up * 0.1f), transform.position + (Vector3.up * 0.1f) + (Vector3.down * groundCheckDistance));
+#endif
+
+        if (Physics.Raycast(transform.position + (Vector3.up * 0.1f), Vector3.down, out hitInfo, groundCheckDistance, groundLayerMask))
+        {
+            isGrounded = true;
+        }
+        else
+        {
+            isGrounded = false;
+        }
+    }
+    #endregion Helper Methods
 }

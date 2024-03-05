@@ -715,6 +715,10 @@ MonoBehaviour:
   speed: 5
   jumpHeight: 2
   dashDistance: 5
+  groundLayerMask:
+    serializedVersion: 2
+    m_Bits: 256
+  groundCheckDistance: 0.3
 --- !u!1 &1183711548
 GameObject:
   m_ObjectHideFlags: 0

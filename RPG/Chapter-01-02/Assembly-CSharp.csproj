@@ -61,9 +61,9 @@
     <Compile Include="Assets\FastCampus\Scripts\Character\PlayerCharacter.cs" />
     <Compile Include="Assets\FastCampus\Scripts\Character\Utilities\RandomStateMachineBehaviour.cs" />
     <Compile Include="Assets\FastCampus\Scripts\Cameras\Scripts\TopDownCamera.cs" />
+    <Compile Include="Assets\FastCampus\Jin_Scripts\RigidbodyCharacter.cs" />
     <Compile Include="Assets\FastCampus\Scripts\Character\PrototypeCharacters\ControllerCharacter.cs" />
     <Compile Include="Assets\FastCampus\Scripts\Cameras\Scripts\BaseCamera.cs" />
-    <Compile Include="Assets\FastCampus\Jin_Scripts\RigidbodyCharacter.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
